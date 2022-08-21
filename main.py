@@ -55,7 +55,7 @@ def get_driver_chrome():
 
 
 if __name__ == "__main__":
-    domain = "https://ldlc.com"
+    domain = "https://example.com"
 
     driver = get_driver_firefox()
     driver.get(domain)
